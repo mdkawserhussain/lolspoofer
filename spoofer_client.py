@@ -17,7 +17,7 @@ log_file = os.path.join(os.path.dirname(sys.executable), "spoofer_client.log")
 logging.basicConfig(filename=log_file, level=logging.DEBUG, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# --- Anti-Debugging Check ---
+# --Anti-Debugging Check ---
 # This detects if a debugger is attached to the process. If detected, the program exits.
 if sys.gettrace() is not None:
     logging.error("Debugger detected! Exiting.")  # Log a warning message
