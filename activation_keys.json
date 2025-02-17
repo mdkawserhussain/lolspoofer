@@ -1,0 +1,13 @@
+{
+    "SINGLE-1633024800": {
+        "type": "single",
+        "used": false
+    },
+    "UNLIMITED-1633024801": {
+        "type": "unlimited"
+    },
+    "TIME-LIMITED-1633024802": {
+        "type": "time-limited",
+        "expires": "2023-10-07"
+    }
+}
